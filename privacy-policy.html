@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Royal Chess — Политика конфиденциальности / Privacy Policy</title>
+<meta name="description" content="Политика конфиденциальности мобильного приложения Royal Chess. Privacy Policy of the Royal Chess mobile app.">
+<meta name="theme-color" content="#10131C">
+<style>
+:root{--bg:#10131C;--card:#1B202B;--line:rgba(255,255,255,.08);--gold:#DDB454;--gold2:#C5A45D;--text:#F4F1E9;--mute:#A7AAB5;--mark:rgba(221,180,84,.16)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:radial-gradient(1200px 600px at 50% -200px,#1d2332 0%,var(--bg) 70%) fixed;color:var(--text);
+  font:16px/1.65 Inter,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--gold);text-decoration:none;border-bottom:1px solid rgba(221,180,84,.35)}a:hover{border-color:var(--gold)}
+header.top{position:sticky;top:0;z-index:10;background:rgba(16,19,28,.86);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top .in{max-width:1100px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{display:flex;align-items:center;gap:10px;font:700 17px/1 Georgia,"Times New Roman",serif;letter-spacing:.04em;color:var(--text)}
+.brand svg{width:26px;height:26px}
+.lang{display:inline-flex;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:3px}
+.lang button{border:0;background:none;color:var(--mute);font:600 13px/1 Inter,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;padding:8px 14px;border-radius:999px;cursor:pointer}
+.lang button.on{background:var(--gold);color:#241a06}
+.hero{max-width:1100px;margin:0 auto;padding:56px 20px 28px}
+.hero .tag{margin-right:6px;font:600 12px/1 Inter,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--gold2);border:1px solid rgba(197,164,93,.35);border-radius:999px;padding:7px 12px}
+.hero h1{font:700 clamp(30px,5.2vw,52px)/1.1 Georgia,"Times New Roman",serif;margin:18px 0 12px;letter-spacing:.01em}
+.hero h1 span{color:var(--gold)}
+.hero p{color:var(--mute);max-width:720px;margin:0}
+.meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.meta div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 14px;font-size:14px;color:var(--mute)}
+.meta b{color:var(--text);font-weight:600}
+.wrap{max-width:1100px;margin:0 auto;padding:12px 20px 80px;display:grid;grid-template-columns:260px minmax(0,1fr);gap:36px;align-items:start}
+nav.toc{position:sticky;top:84px;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:16px 8px;max-height:calc(100vh - 110px);overflow:auto}
+nav.toc h2{margin:0 12px 8px;font:600 12px/1 Inter,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+nav.toc a{display:block;border:0;color:var(--mute);font-size:14px;line-height:1.35;padding:8px 12px;border-radius:10px}
+nav.toc a:hover,nav.toc a.cur{background:rgba(221,180,84,.1);color:var(--gold)}
+main section{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:26px 28px;margin:0 0 16px}
+main h2{margin:0 0 14px;font:700 21px/1.25 Georgia,"Times New Roman",serif;display:flex;gap:12px;align-items:baseline}
+main h2 i{font:700 13px/1 Inter,system-ui,sans-serif;font-style:normal;color:#241a06;background:var(--gold);border-radius:8px;padding:5px 8px;flex:none}
+main p{margin:0 0 10px}
+main ol{margin:0;padding:0;list-style:none;counter-reset:c}
+main ol>li{position:relative;padding-left:46px;margin:0 0 10px;counter-increment:c}
+main ol>li::before{content:attr(data-n);position:absolute;left:0;top:0;font-weight:700;color:var(--gold2);font-variant-numeric:tabular-nums}
+main ul{margin:8px 0 4px;padding-left:20px}main ul li{margin:4px 0}
+mark.ph{background:var(--mark);color:var(--gold);padding:1px 6px;border-radius:6px;font-weight:600}
+.note{border-left:3px solid var(--gold);background:rgba(221,180,84,.07);border-radius:0 14px 14px 0;padding:12px 16px;margin:14px 0 4px;color:var(--text);font-size:15px}
+footer{max-width:1100px;margin:0 auto;padding:0 20px 56px;color:var(--mute);font-size:13px;text-align:center}
+[data-l]{display:none}
+body.ru [data-l="ru"],body.en [data-l="en"]{display:block}
+body.ru .hero .tag[data-l="ru"],body.en .hero .tag[data-l="en"]{display:inline-block}
+body.ru span[data-l="ru"],body.en span[data-l="en"],body.ru a[data-l="ru"],body.en a[data-l="en"],body.ru li[data-l="ru"],body.en li[data-l="en"]{display:inline}
+body.ru li[data-l="ru"],body.en li[data-l="en"]{display:list-item}
+@media (max-width:860px){.wrap{grid-template-columns:1fr}nav.toc{position:static;max-height:none}.hero{padding-top:36px}main section{padding:20px 18px}}
+@media print{header.top,nav.toc{display:none}body{background:#fff;color:#111}main section{background:#fff;border:0;border-bottom:1px solid #ccc;border-radius:0;padding:12px 0;break-inside:avoid}.hero h1,.hero p,.meta div,main h2,mark.ph{color:#111}.wrap{display:block}}
+table.dt{width:100%;border-collapse:separate;border-spacing:0;margin:8px 0 4px;font-size:14.5px;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.dt th{background:rgba(221,180,84,.1);color:var(--gold);text-align:left;font-weight:600;padding:10px 12px}
+.dt td{padding:10px 12px;border-top:1px solid var(--line);vertical-align:top;color:var(--text)}
+.dt td:first-child{font-weight:600;white-space:nowrap}
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin:2px 0 14px}
+.pills span{background:rgba(221,180,84,.1);border:1px solid rgba(221,180,84,.25);color:var(--gold);border-radius:999px;padding:5px 12px;font-size:13.5px;font-weight:600}
+main,section,nav,.toc{min-width:0}
+a{overflow-wrap:anywhere}
+.dt td,.dt th{overflow-wrap:anywhere}
+@media (max-width:560px){.dt td:first-child{white-space:normal}.dt td,.dt th{padding:8px 8px;font-size:13.5px}}
+</style>
+</head>
+<body class="ru">
+
+<header class="top"><div class="in">
+  <div class="brand"><svg viewBox="0 0 24 24" fill="none" stroke="#DDB454" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 20h11M8.5 20c.3-3 1-4.7 2.6-6.4-1.8.2-3.4-.7-4.3-2.1L5 10.3l1.5-1.8L9 6.3 11.2 3l.8 2.2c3.2.6 5.6 3 6 6.4.3 2.8-.4 5.7-1.2 8.4"/></svg>ROYAL CHESS</div>
+  <div class="lang" role="group" aria-label="Language"><button id="bRu" class="on" type="button">Русский</button><button id="bEn" type="button">English</button></div>
+</div></header>
+
+<div class="hero">
+  <span class="tag" data-l="ru">Политика конфиденциальности</span><span class="tag" data-l="en">Privacy Policy</span>
+  <h1 data-l="ru">Политика<br>конфиденциальности <span>Royal Chess</span></h1>
+  <h1 data-l="en">Privacy Policy<br><span>Royal Chess</span></h1>
+  <p data-l="ru">Коротко: мы не требуем регистрации, не собираем ваши личные данные и не отслеживаем геолокацию. Ниже — подробности для тех, кому это важно.</p>
+  <p data-l="en">In short: no sign-up, no personal data collection and no location tracking. Details below for those who care.</p>
+  <div class="meta">
+    <div data-l="ru"><b>Действует с:</b> 09.11.2026</div><div data-l="en"><b>Effective:</b> 09 Nov 2026</div>
+    <div data-l="ru"><b>Платформа:</b> Android</div><div data-l="en"><b>Platform:</b> Android</div>
+  </div>
+</div>
+
+<div class="wrap">
+<nav class="toc" aria-label="Contents"><h2 data-l="ru">Содержание</h2><h2 data-l="en">Contents</h2><div id="toc"></div></nav>
+
+<main>
+<div data-l="ru">
+<section id="r1"><h2><i>1</i>Кто мы и о чём этот документ</h2><p>Приложение «Royal Chess» (далее — «Приложение») разработано и поддерживается <b>Stam Studio</b> (далее — «мы»). Здесь мы простыми словами объясняем, какие данные обрабатываются, зачем и как ими управлять.</p><div class="pills"><span>Без регистрации</span><span>Без e-mail и телефона</span><span>Без доступа к геолокации</span><span>Без чатов</span></div><p>Связь с нами: <a href="mailto:stan577512@gmail.com">stan577512@gmail.com</a>.</p></section>
+<section id="r2"><h2><i>2</i>Какие данные и зачем</h2><table class="dt"><tr><th>Данные</th><th>Зачем</th><th>Где</th></tr>
+<tr><td>Настройки, статистика, сохранённая партия, оформление</td><td>Чтобы Приложение помнило ваши предпочтения и прогресс</td><td>Только на вашем устройстве</td></tr>
+<tr><td>Анонимный ID (Firebase Authentication)</td><td>Чтобы подключить вас к сопернику в онлайн-режиме</td><td>Firebase (Google)</td></tr>
+<tr><td>Имя игрока / Логин</td><td>Показывается сопернику; по логину вас находят друзья</td><td>Firebase</td></tr>
+<tr><td>Ходы партии и часы</td><td>Ход онлайн-игры</td><td>Firebase, на время партии</td></tr>
+<tr><td>Код страны (2 буквы)</td><td>Флаг рядом с именем — можно отключить</td><td>Firebase</td></tr>
+<tr><td>Рекламный ID, IP, сведения об устройстве</td><td>Показ и измерение рекламы</td><td>Google AdMob</td></tr></table>
+<p>Мы <b>не собираем</b> ваше имя, e-mail, телефон, контакты, фото, точное местоположение. У Приложения нет собственной аналитики.</p></section>
+<section id="r3"><h2><i>3</i>Игра без интернета</h2><p>В режимах «С компьютером», «Вдвоём» и «Обучение» ваши данные не передаются нам. Настройки, статистика, сохранённая партия и открытые на время премиум-наборы хранятся локально на устройстве и удаляются при удалении Приложения или очистке его данных. Реклама при этом может запрашиваться, если есть интернет (см. раздел 5).</p></section>
+<section id="r4"><h2><i>4</i>Онлайн-режим</h2><p>Для онлайн-игры Приложение создаёт анонимную учётную запись Firebase Authentication — без e-mail и пароля.</p><ol><li data-n="4.1">Обрабатываются анонимный идентификатор, имя («Гость 1234» или выбранный вами Логин), ходы и время на часах.</li><li data-n="4.2">Логин виден другим игрокам, которые его ищут, и сопернику во время партии. Не используйте в нём личные данные.</li><li data-n="4.3">Данные подбора, приглашения и партий удаляются автоматически после окончания игры или через короткое время.</li><li data-n="4.4">Запись о Логине (Логин, анонимный ID, код страны, отметка активности) хранится, пока вы пользуетесь онлайн-режимом, пока вы не смените Логин или не попросите нас её удалить.</li><li data-n="4.5">Чатов и другого пользовательского контента в Приложении нет.</li></ol></section>
+<section id="r5"><h2><i>5</i>Флаг страны</h2><p>Чтобы показать флаг рядом с именем, Приложение определяет примерную страну (только двухбуквенный код, не город и не точное местоположение): по IP-адресу через публичный сервис (geojs.io, запасной — api.country.is) или по языку устройства. Код хранится в онлайн-профиле и виден сопернику. Отключить: <b>Настройки → «Показывать флаг моей страны (онлайн)»</b>. Приложение не запрашивает GPS и разрешения на геолокацию.</p></section>
+<section id="r6"><h2><i>6</i>Реклама и согласие</h2><p>В Приложении показывается реклама Google AdMob: баннер, полноэкранная реклама и видео с вознаграждением. AdMob может использовать рекламный идентификатор, IP-адрес, сведения об устройстве и взаимодействии с рекламой, а при вашем согласии (ЕЭЗ и Великобритания) — персонализировать рекламу.</p><ol><li data-n="6.1">При первом запуске там, где это требует закон, показывается форма согласия Google. Там, где закон это требует (ЕЭЗ, Великобритания), позже её можно открыть в <b>Настройках → «Настройки рекламы»</b>.</li><li data-n="6.2">Сбросить рекламный ID или отключить персонализацию можно в настройках Android: «Google → Реклама».</li><li data-n="6.3">Подробнее: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">policies.google.com/technologies/ads</a>.</li></ol></section>
+<section id="r7"><h2><i>7</i>Сторонние сервисы</h2><p>Мы используем Google Firebase (Authentication и Realtime Database) и Google AdMob. Эти сервисы обрабатывают технические данные (например, IP-адрес) по собственным правилам: <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">firebase.google.com/support/privacy</a>. Данные не продаются и не передаются другим третьим лицам, кроме указанных сервисов.</p></section>
+<section id="r8"><h2><i>8</i>Разрешения Android</h2><ul><li><b>Интернет</b> — для онлайн-режима и рекламы.</li><li><b>Состояние сети</b> — чтобы понять, есть ли подключение. Данные не передаются.</li><li><b>Вибрация</b> — для отклика на ходы, отключается в настройках.</li><li><b>Рекламный ID</b> — для рекламы AdMob (см. раздел 6).</li></ul></section>
+<section id="r9"><h2><i>9</i>Безопасность и хранение</h2><p>Обмен данными с сервером идёт по защищённому соединению (HTTPS). Мы храним данные только столько, сколько нужно для работы онлайн-режима (раздел 4). Ни одна система не защищена на 100%, поэтому мы не просим вас вводить в Приложении личные данные.</p></section>
+<section id="r10"><h2><i>10</i>Дети</h2><p>Приложение не предназначено для детей младше 13 лет, не ведёт целенаправленный сбор их данных и не содержит чатов. Если вы считаете, что ребёнок передал нам данные, напишите нам, и мы их удалим.</p></section>
+<section id="r11"><h2><i>11</i>Ваши права и удаление данных</h2><ul><li>Очистить локальные данные: «Настройки Android → Приложения → Royal Chess → Хранилище → Очистить».</li><li>Сменить Логин или отключить флаг — в Настройках Приложения.</li><li>Попросить удалить онлайн-данные, получить копию или задать вопрос — напишите на <a href="mailto:stan577512@gmail.com">stan577512@gmail.com</a>, укажите свой Логин. Ответим в разумный срок.</li><li>Вы вправе возразить против обработки или отозвать согласие на персональную рекламу в любой момент.</li></ul></section>
+<section id="r12"><h2><i>12</i>Изменения и контакты</h2><p>Мы можем обновлять политику; актуальная версия всегда по этому адресу, дата вступления в силу указана вверху.</p><p><b>Правообладатель:</b> Stam Studio</p><p><b>E-mail:</b> <a href="mailto:stan577512@gmail.com">stan577512@gmail.com</a></p></section>
+</div>
+<div data-l="en">
+<section id="e1"><h2><i>1</i>Who we are and what this is</h2><p>“Royal Chess” (the “App”) is developed and maintained by <b>Stam Studio</b> (“we”). This page explains in plain language what data is processed, why, and how you control it.</p><div class="pills"><span>No sign-up</span><span>No e-mail or phone</span><span>No location access</span><span>No chat</span></div><p>Contact: <a href="mailto:stan577512@gmail.com">stan577512@gmail.com</a>.</p></section>
+<section id="e2"><h2><i>2</i>What data and why</h2><table class="dt"><tr><th>Data</th><th>Purpose</th><th>Where</th></tr>
+<tr><td>Settings, statistics, saved game, appearance</td><td>So the App remembers your preferences and progress</td><td>On your device only</td></tr>
+<tr><td>Anonymous ID (Firebase Authentication)</td><td>To connect you with an opponent online</td><td>Firebase (Google)</td></tr>
+<tr><td>Player name / Login</td><td>Shown to your opponent; friends find you by login</td><td>Firebase</td></tr>
+<tr><td>Game moves and clocks</td><td>To run the online game</td><td>Firebase, for the game</td></tr>
+<tr><td>Country code (2 letters)</td><td>Flag next to your name — can be turned off</td><td>Firebase</td></tr>
+<tr><td>Advertising ID, IP, device info</td><td>To show and measure ads</td><td>Google AdMob</td></tr></table>
+<p>We <b>do not collect</b> your name, e-mail, phone, contacts, photos or precise location. The App has no analytics of its own.</p></section>
+<section id="e3"><h2><i>3</i>Offline play</h2><p>In “vs Computer”, “Two Players” and “Learn”, your data is not sent to us. Settings, statistics, the saved game and temporarily unlocked premium sets are stored locally on your device and are deleted when you uninstall the App or clear its data. Ads may still be requested when you are online (see section 5).</p></section>
+<section id="e4"><h2><i>4</i>Online mode</h2><p>For online play the App creates an anonymous Firebase Authentication account — no e-mail or password.</p><ol><li data-n="4.1">We process an anonymous identifier, a name (“Guest 1234” or the Login you choose), moves and clock time.</li><li data-n="4.2">Your Login is visible to players who search for it and to your opponent during a game. Do not put personal data in it.</li><li data-n="4.3">Matchmaking data, invitations and games are deleted automatically after the game ends or after a short time.</li><li data-n="4.4">The Login record (Login, anonymous ID, country code, activity timestamp) is kept while you use Online Mode, until you change your Login or ask us to delete it.</li><li data-n="4.5">The App has no chat and no other user-generated content.</li></ol></section>
+<section id="e5"><h2><i>5</i>Country flag</h2><p>To show a flag next to your name, the App determines your approximate country (a two-letter code only — not your city or precise location) from your IP address through a public lookup service (geojs.io, with api.country.is as a fallback) or from your device language. The code is stored in your online profile and shown to your opponent. Turn it off in <b>Settings → “Show my country flag (online)”</b>. The App never asks for GPS or location permission.</p></section>
+<section id="e6"><h2><i>6</i>Advertising and consent</h2><p>The App shows Google AdMob ads: a banner, interstitials and rewarded video. AdMob may use your advertising ID, IP address, device information and ad interaction data, and — where you consent (EEA/UK) — personalise ads.</p><ol><li data-n="6.1">At first launch, where the law requires it, a Google consent form is shown. Where required (EEA/UK), you can reopen it later in <b>Settings → “Ad settings”</b>.</li><li data-n="6.2">You can reset your advertising ID or opt out of personalisation in Android settings: “Google → Ads”.</li><li data-n="6.3">More: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">policies.google.com/technologies/ads</a>.</li></ol></section>
+<section id="e7"><h2><i>7</i>Third parties</h2><p>We use Google Firebase (Authentication and Realtime Database) and Google AdMob. These services process technical data (such as IP address) under their own policies: <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">firebase.google.com/support/privacy</a>. We do not sell your data or share it with anyone other than these services.</p></section>
+<section id="e8"><h2><i>8</i>Android permissions</h2><ul><li><b>Internet</b> — for online play and ads.</li><li><b>Network state</b> — to detect whether you are connected. Nothing is transmitted.</li><li><b>Vibration</b> — for move feedback; can be turned off in Settings.</li><li><b>Advertising ID</b> — for AdMob ads (see section 6).</li></ul></section>
+<section id="e9"><h2><i>9</i>Security and retention</h2><p>Data is exchanged with the server over secure connections (HTTPS). We keep data only as long as needed for Online Mode to work (section 4). No system is 100% secure, which is why the App never asks you to enter personal data.</p></section>
+<section id="e10"><h2><i>10</i>Children</h2><p>The App is not directed to children under 13, does not knowingly collect their data and has no chat. If you believe a child has provided us with data, write to us and we will delete it.</p></section>
+<section id="e11"><h2><i>11</i>Your rights and deletion</h2><ul><li>Clear local data: “Android Settings → Apps → Royal Chess → Storage → Clear data”.</li><li>Change your Login or turn off the flag in the App’s Settings.</li><li>To request deletion of online data, get a copy or ask a question, e-mail <a href="mailto:stan577512@gmail.com">stan577512@gmail.com</a> with your Login. We will reply within a reasonable time.</li><li>You may object to processing or withdraw your consent to personalised ads at any time.</li></ul></section>
+<section id="e12"><h2><i>12</i>Changes and contact</h2><p>We may update this policy; the current version is always at this address and its effective date is shown at the top.</p><p><b>Developer:</b> Stam Studio</p><p><b>E-mail:</b> <a href="mailto:stan577512@gmail.com">stan577512@gmail.com</a></p></section>
+</div>
+</main>
+</div>
+
+<footer>
+  <span data-l="ru">© 2026 Stam Studio. Все права защищены.</span>
+  <span data-l="en">© 2026 Stam Studio. All rights reserved.</span>
+</footer>
+
+<script>
+(function(){
+  var body=document.body, bRu=document.getElementById('bRu'), bEn=document.getElementById('bEn'), toc=document.getElementById('toc');
+  function buildToc(l){
+    toc.textContent='';
+    document.querySelectorAll('main > div[data-l="'+l+'"] > section').forEach(function(s){
+      var a=document.createElement('a'); a.href='#'+s.id; a.textContent=s.querySelector('h2').textContent.replace(/^\d+/,function(m){return m+'. ';}); toc.appendChild(a);
+    });
+  }
+  function setLang(l){
+    body.className=l; document.documentElement.lang=l;
+    bRu.classList.toggle('on',l==='ru'); bEn.classList.toggle('on',l==='en');
+    try{localStorage.setItem('offer_lang',l);}catch(e){}
+    buildToc(l);
+  }
+  var l='ru';
+  try{ l=localStorage.getItem('offer_lang') || (/^ru\b|^ru-/i.test(navigator.language||'')?'ru':'en'); }catch(e){}
+  if(/[?&]lang=en/.test(location.search)) l='en'; if(/[?&]lang=ru/.test(location.search)) l='ru';
+  bRu.onclick=function(){setLang('ru');}; bEn.onclick=function(){setLang('en');};
+  setLang(l);
+  var links=function(){return Array.prototype.slice.call(toc.querySelectorAll('a'));};
+  window.addEventListener('scroll',function(){
+    var cur=null; document.querySelectorAll('main > div[data-l="'+body.className+'"] > section').forEach(function(s){ if(s.getBoundingClientRect().top<140) cur=s.id; });
+    links().forEach(function(a){ a.classList.toggle('cur',a.getAttribute('href')==='#'+cur); });
+  },{passive:true});
+})();
+</script>
+</body>
+</html>
